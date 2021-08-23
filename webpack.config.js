@@ -49,7 +49,7 @@ module.exports = {
                 //js확장자 파일은 babel-loader를 통해 읽히고 
                 //babel이 적용된다.
                 test:/\.js$/,
-                user:[
+                use:[
                     'babel-loader'
                 ]
             }
